@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<title>표 만들기</title>
+	<style>
+		table{
+			width:80%;
+		}
+		th,td{
+			width:100px;
+			height:50px;
+		}
+	</style>
+</head>
+<body>	
+	<table border="1">
+		<caption>
+			7행 4열
+		</caption>
+	<tr>
+		<td>도</td><td>시</td><td colspan="2">최저/최고기온</td>
+    </tr>
+	<tr>
+		<td rowspan="2">경기도</td><td>수원</td><td>20</td><td>30</td>
+    </tr>
+	<tr>
+		<td>인천</td><td>20</td><td>30</td>
+	</tr>
+	<tr>
+		<td rowspan="2">강원도</td><td>강릉</td><td>20</td><td>30</td>
+    </tr>
+	<tr>
+		<td>원주</td><td>20</td><td>30</td>
+    </tr>
+	<tr>
+		<td rowspan="2">전라도</td><td>광주</td><td>20</td><td>30</td>
+    </tr>
+	<tr>
+		<td>전주</td><td>20</td><td>30</td>
+    </tr>
+	
+	</table>
+</body>
+</html>
